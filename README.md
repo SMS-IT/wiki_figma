@@ -1,4 +1,4 @@
-Plugin Name: Drawio (draw.io)
+Plugin Name: Figma (figma.com)
 
 Description:
 Draw and edit flow charts, diagrams, images using Figma service.
