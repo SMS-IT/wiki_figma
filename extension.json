@@ -1,0 +1,62 @@
+{
+	"name": "Figma",
+	"author": "sms-it",
+	"version": "1.0.1",
+	"url": "https://www.mediawiki.org/wiki/Extension:Figma",
+	"descriptionmsg": "figma-desc",
+	"license-name": "GPL-2.0+",
+	"type": "parserhook",
+	
+	"AutoloadClasses": {
+        "FigmaHooks": "FigmaHooks.php",
+        "FigmaFuncs": "FigmaFuncs.php",
+        "FigmaSpecial": "FigmaSpecial.php",
+        "WikiFiles": "WikiFiles.php"
+	},
+	
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "Figma/modules"
+	},
+	"ResourceModules": {
+		"ext.figma.visualEditor": {
+			"scripts": [
+				"ve-figma/ve.dm.MWfigmaNode.js",
+				"ve-figma/ve.ce.MWfigmaNode.js",
+				"ve-figma/ve.ui.MWfigmaWindow.js",
+				"ve-figma/ve.ui.MWfigmaInspector.js",
+				"ve-figma/ve.ui.MWfigmaInspectorTool.js"
+			],
+			"styles": [
+				"ve-figma/ve.ui.MWfigmaIcons.css"
+			],
+			"dependencies": [
+				"ext.visualEditor.mwcore"
+			],
+			"messages": [
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		}
+	},
+	"VisualEditorPluginModules": [
+		"ext.figma.visualEditor"
+	],
+	
+	"ExtensionMessagesFiles": {
+		"FigmaMessages": "Figma.i18n.php"
+    },
+    "SpecialPages": {
+		"FigmaSpecial": "FigmaSpecial"
+	},
+	
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"FigmaHooks::efFigmaParserFirstCallInit"
+        ]
+	},
+	
+	"manifest_version": 1
+}
