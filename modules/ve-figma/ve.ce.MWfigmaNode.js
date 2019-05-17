@@ -40,7 +40,6 @@ ve.ce.MWFigmaNode.prototype.onSetup = function () {
 // Inherits from ve.ce.GeneratedContentNode
 /*
 ve.ce.MWFigmaNode.prototype.generateContents = function () {
- console.log(' !!!!!!  MWFigmaNodegenerateContents');
 	var node = this,
 		args = arguments;
 	// Parent method
@@ -60,7 +59,6 @@ ve.ce.MWFigmaNode.prototype.validateGeneratedContents = function ( $element ) {
 // Inherits from ve.ce.FocusableNode
 /*
 ve.ce.MWFigmaNode.prototype.getBoundingRect = function () {
- console.log('ve.ce.MWFigmaNode.prototype.getBoundingRect');
 	// HACK: Because nodes can overflow due to the pre tag, just use the
 	// first rect (of the wrapper div) for placing the context.
 	return this.rects[ 0 ];

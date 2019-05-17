@@ -17,7 +17,7 @@ License: GPL3 or later
 
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-Copyright 2015 SMS-IT 
+Copyright 2019 SMS-IT 
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License, version 3, as 

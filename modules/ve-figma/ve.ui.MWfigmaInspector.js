@@ -55,7 +55,6 @@ ve.ui.MWFigmaInspector.prototype.initialize = function () {
  * @inheritdoc
  */
 ve.ui.MWFigmaInspector.prototype.getReadyProcess = function ( data ) {
- console.log('ve.ui.MWFigmaInspector.prototype.getReadyProcess');
 	// Parent process
 	var process = ve.ui.MWFigmaInspector.super.prototype.getReadyProcess.call( this, data );
 	// Mixin process
@@ -66,7 +65,6 @@ ve.ui.MWFigmaInspector.prototype.getReadyProcess = function ( data ) {
  * @inheritdoc
  */
 ve.ui.MWFigmaInspector.prototype.getSetupProcess = function ( data ) {
- //console.log('ve.ui.MWFigmaInspector.prototype.getSetupProcess');
 	// Parent process
 	var process = ve.ui.MWFigmaInspector.super.prototype.getSetupProcess.call( this, data );
 	// Mixin process
@@ -79,7 +77,6 @@ ve.ui.MWFigmaInspector.prototype.getSetupProcess = function ( data ) {
  * @inheritdoc
  */
 ve.ui.MWFigmaInspector.prototype.getTeardownProcess = function ( data ) {
- //console.log('ve.ui.MWFigmaInspector.prototype.getTeardownProcess');
 	// Parent process
 	var process = ve.ui.MWFigmaInspector.super.prototype.getTeardownProcess.call( this, data );
 	// Mixin process
@@ -92,7 +89,6 @@ ve.ui.MWFigmaInspector.prototype.getTeardownProcess = function ( data ) {
  * @inheritdoc
  */
 ve.ui.MWFigmaInspector.prototype.updateMwData = function () {
- //console.log('ve.ui.MWFigmaInspector.prototype.updateMwData');
 	// Parent method
 	ve.ui.MWFigmaInspector.super.prototype.updateMwData.apply( this, arguments );	
 	// Mixin method
