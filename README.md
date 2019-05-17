@@ -7,7 +7,7 @@ Description:
 
 
 
-
+------------------------------------------
 
 
 Plugin URI:		https://github.com/SMS-IT/wiki_figma.git
