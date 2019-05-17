@@ -1,18 +1,12 @@
-Plugin Name:	Figma (figma.com)
+Mediawiki extension for insert Figma mockups into wiki page.
 
-Description:
-	The Figma extension allows to add Figma images (https://www.figma.com) to your wiki pages in read mode and VisualEditor.
+Extension: https://www.mediawiki.org/wiki/Extension:Figma
+
+The Figma extension allows to add Figma (https://www.figma.com) mockups into your wiki pages in read mode and in VisualEditor.
 	
 	Note! You should enable .xml file extension in $wgFileExtensions in LocalSettings.php
 
-
-
 ------------------------------------------
-
-
-Plugin URI:		https://github.com/SMS-IT/wiki_figma.git
-
-Extension URI:	https://www.mediawiki.org/wiki/Extension:Figma
 
 Version:		0.0.1
 
@@ -20,10 +14,11 @@ Author:			SMS-IT
 
 Author URI:		http://www.sms-it.ru/
 
+------------------------------------------
+
 License:		GPL3 or later
 
 License URI:	https://www.gnu.org/licenses/gpl-3.0.html
-
 
 
     Copyright 2019 SMS-IT 
